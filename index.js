@@ -262,7 +262,7 @@ let universe;
 const reset = () => {
     player = new Player(250, 250);
     universe = new Universe(
-        [],//[new Ball(200, 300, 0.2, 0.3, 10)],
+        [new Ball(200, 300, 0.2, 0.3, 10)],
         player,
     );
 };
