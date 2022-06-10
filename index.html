@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Topology</h1>
+<div>
+<canvas  width="500px" height="500px" id="canvas"></canvas>
+</div>
+<p>WASD to move. W/S for linear acceleration, A/D for angular acceleration.</p>
+<select name="topology" id="topology" onchange="changeTopology()">
+    <option value="torus">Torus</option>
+    <option value="klein">Klein Bottle</option>
+    <option value="plane">Plane</option>
+    <option value="sphere">Sphere</option>
+    <option value="proj_plane">Real Projective Plane</option>
+</select>
+
+<script src="index.js"></script>
+</body>
+</html>
